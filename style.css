@@ -1,0 +1,152 @@
+
+.container {
+    max-width: 1440px; /* Set the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 20px; /* Adjusted padding */
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display the list items horizontally */
+}
+
+nav li {
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+body {
+    margin: 0;
+}
+
+.ups {
+    background-color: #CBCDA9;
+    height: 53px;
+    width: 100%; /* Set width to 100% to span the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: block; /* Remove any extra spacing below the image */
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%; /* Place the content at 50% from the top */
+    left: 50%; /* Place the content at 50% from the left */
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center; /* Center text horizontally */
+    color: #fff; /* Set text color */
+}
+
+.banner-title {
+    font-size: 96px;
+    margin-bottom: 15px;
+    font-style: Source Serif Pro;
+}
+
+.text-lightgray {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color:#FFFFFF;
+    ;
+}
+
+.btn-primary {
+    background-color:#F3F25B;
+    color:#000000;
+    font-style:Lato;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.banner-content1 {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.banner-title1 {
+    font-size: 96px;
+    color: #131313;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: Source Serif Pro;
+}
+
+
+
+.banner1.map {
+    position: relative;
+
+}
+
+.banner1 .img1 {
+    position: absolute;
+    width: 433px;
+    height: 563px;
+    left: 350px;
+    top: 350px;
+    border-radius: 8px;
+}
+
+.banner1 .img2 {
+    position: absolute;
+    width: 433px;
+    height: 563px;
+    left: 783px;
+    top: 350px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.wht
+{
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+}

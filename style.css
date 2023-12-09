@@ -1,12 +1,12 @@
 
 .container {
-    max-width: 1440px; /* Set the maximum width */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 1440px; 
+    margin: 0 auto; 
 }
 
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 20px; /* Adjusted padding */
+    padding: 20px; 
     box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display the list items horizontally */
+    display: flex; 
 }
 
 nav li {
@@ -43,7 +43,7 @@ body {
 .ups {
     background-color: #CBCDA9;
     height: 53px;
-    width: 100%; /* Set width to 100% to span the entire viewport */
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,16 +58,16 @@ body {
     margin-top: 40px;
     width: 100%;
     height: auto;
-    display: block; /* Remove any extra spacing below the image */
+    display: block; 
 }
 
 .banner-content {
     position: absolute;
-    top: 50%; /* Place the content at 50% from the top */
-    left: 50%; /* Place the content at 50% from the left */
-    transform: translate(-50%, -50%); /* Center the content */
-    text-align: center; /* Center text horizontally */
-    color: #fff; /* Set text color */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: #fff; 
 }
 
 .banner-title {
